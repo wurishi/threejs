@@ -1,0 +1,31 @@
+{
+  "name": "threejs-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "drawing-lines": "webpack docs/src/drawing-lines.js -o docs/public/drawing-lines.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/dat.gui": "^0.7.5",
+    "@types/stats.js": "^0.17.0",
+    "@types/three": "^0.103.2",
+    "axios": "^0.21.1",
+    "dat.gui": "^0.7.7",
+    "lottie-web": "^5.7.4",
+    "stats.js": "^0.17.0",
+    "three": "^0.117.1"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^6.4.1",
+    "html-webpack-plugin": "^4.5.0",
+    "ts-loader": "^8.0.4",
+    "typescript": "^4.0.3",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
